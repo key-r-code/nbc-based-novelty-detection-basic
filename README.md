@@ -23,8 +23,8 @@ The testing data consisted of 100 random reads from each class (species) in the 
 Each classification produces a CSV file with the logarithmic probability of each genome in the testing sequence. For each trial, genome sequences in the training data were labeled as "known", while those not present were labeled as "unknown", simplifying this multi-modal problem into a binary classification task. ROC/AUC curves as well as distribution plots were then generated to assess novelty detection.
 
 ### Results
+![plot]![image](https://github.com/user-attachments/assets/8046ce18-e016-450b-8b44-46d374409d62)
 
-![plot](https://github.com/Key0007/naive-bayes-multi-level/blob/d7886cc96d66296b7eb64773d2bf2eb087ff8e14/lower-level-classification/results/mean_roc_all.png)
 
 All scripts in this project were executed on Picotte, Drexel's main high-performance computing cluster.
 
